@@ -1,0 +1,29 @@
+User-agent: *
+
+Sitemap: https://www.onlinemarketingmonkey.be/sitemap_index.xml
+
+
+# Op OMM
+
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-login.php
+Allow: /wp-login.php/admin-ajax.php
+Disallow: /?s=*
+
+
+# Specifieke Bots
+User-agent: Baiduspider
+Disallow: /
+
+
+# ------------------------------------------------------------------------------------------
+
+# Hallo ! Probeer je hier iets bij te leren ?
+
+# Misschien moet je bij ons komen werken of stage volgen.
+
+# Kijk eens op en vermeld deze opmerking.
+
+# -------------------------------------------------------------------------------------------
+
