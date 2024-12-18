@@ -1,5 +1,9 @@
 @use '../abstracts' as *;
 
+.d-flex {
+  display: flex;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;

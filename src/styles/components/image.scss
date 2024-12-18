@@ -1,0 +1,24 @@
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.image {
+  position: relative;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: var(--image-ratio-padding);
+
+  &__object {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+}
