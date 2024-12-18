@@ -19,9 +19,6 @@ export const productTile = ({ title, price, img, href }: Tile) => `
             <img
               src="${img.src}"
               alt="${img.alt}"
-              sizes="((min-width: 50em) and (max-width: 60em)) 5em,
-              ((min-width: 30em) and (max-width: 50em)) 10em,
-              (max-width: 30em) 15em"
               class="tile__item"
             />
           </div>
